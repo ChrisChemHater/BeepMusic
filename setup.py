@@ -5,10 +5,10 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="beepmusic",
-    version="0.0.1",
+    version="0.0.2",
     author="Chris Pan",
     author_email="pgx@pku.edu.cn",
-    description="使用计算机提示音播放乐谱。Play music using computer beep prompt tone.",
+    description="Play music using computer beep prompt tone.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/ChrisChemHater/BeepMusic",

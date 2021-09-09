@@ -9,12 +9,18 @@ Play music using computer beep prompt tone.
 - windows system
 - python >= 3.6
 
+## Install
+
+```cmd
+pip install beepmusic
+```
+
 ## Quick Start
 
 Run command in cmd or powershell:
 
 ```cmd
-python beepMusicPlayer.py [BMCFile]
+python -m beepmusic [BMCFile]
 ```
 
 ## BMC File
