@@ -1,0 +1,26 @@
+bmcFile
+    {set-name}
+    {set-base}
+    {set-bpm}
+    ({notations}|{comment})*
+set-name
+    name={name}\n
+set-base
+    ({notation}|{complex-notation})={absolute-notation}\n
+set-bpm
+    bpm={int}\n
+notations
+    ({notation}|{complex-notation}|\|)+\n
+notation
+    {level}{up-down}{base-notation}
+complex-notation
+    \[{notation}, {float}\]
+base-notation
+    [1-7]
+level
+    (\<|\>)+
+up-down
+    (b|#)
+comment
+    %.*
+
