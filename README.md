@@ -29,7 +29,7 @@ BMC File is a file type that specify name, tone, speed and melody of a sone
 Since I am not a professional musician, BMC file is simple and crude. However,
 it supports comments! :)
 
-Please check the example file 'joy.bmc'.
+Please check the example file 'tests/joy.bmc'.
 
 ## Notes
 
