@@ -23,6 +23,15 @@ Run command in cmd or powershell:
 python -m beepmusic [BMCFile]
 ```
 
+There are some built-in melodies there, add "--list" argument to list all built-in BMC Files,
+or add "--buildin" to play one of them:
+
+```cmd
+python -m beepmusic --list
+python -m beepmusic --builtin joy.bmc
+python -m beepmusic --builtin 蜜雪冰城.bmc
+```
+
 ## BMC File
 
 BMC File is a file type that specify name, tone, speed and melody of a sone

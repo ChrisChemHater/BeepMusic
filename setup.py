@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="beepmusic",
-    version="0.0.2",
+    version="0.0.3",
     author="Chris Pan",
     author_email="pgx@pku.edu.cn",
     description="Play music using computer beep prompt tone.",
@@ -22,5 +22,6 @@ setuptools.setup(
     ],
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src"),
+    package_data={"beepmusic": ["builtin_musics/*.bmc"]},
     python_requires=">=3.6",
 )
